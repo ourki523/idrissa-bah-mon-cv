@@ -1,0 +1,117 @@
+body{
+    font-family: 'Century Gothic',serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+header{
+    height: 50px;
+}
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #c5c5c5;
+    border-top: 2px solid #aaa;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+img{
+    width: 100px;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.menu-cv:hover, .présentation{
+    border-top: 5px solid #4c8;
+    background-color: RGBa(64, 200, 130, 0.15);
+}.menu-co:hover, .parcours{
+    border-top: 5px solid #f1dc41;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-cv:hover, .langues{
+    border-top: 5px solid #4c8;
+    background-color: RGBa(64, 200, 130, 0.15);
+}.menu-co:hover, .loisirs{
+    border-top: 5px solid #f1dc41;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+section{
+    width: 100%;
+    min-height: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.sec{
+    margin: 0px 10px;
+}
+.left{
+    float: left;
+    width: 30px;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.Cleft, .Cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+
+}
+.sec::after, .parc::after, .lang::after, .loi::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+h1{
+    background-color:#c5c5c5;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+
+@media screen and (max-widht:780px){
+    header{
+        height: 50px;
+        h1{
+            font-size:28px;
+            margin: 20px 0px 0px;
+        }
+        nav li a{
+            font-size: 12px;
+            padding: 10px;
+        }
+        nav li :hover a{
+            padding: 5px 10px 10px;
+        }
+    }
+}
